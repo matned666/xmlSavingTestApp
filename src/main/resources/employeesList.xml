@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employeesList>
+    <employees>
+        <id>1</id>
+        <img>bogus.png</img>
+        <name>Bogusławo</name>
+        <surname>Kowalski</surname>
+        <profession>Programista Java</profession>
+        <achievements>
+            <title>Mister Java</title>
+            <description>
+                Zwycięstwo w konkursie ogólnofirmowym na mister Java
+            </description>
+        </achievements>
+        <achievements>
+            <title>Invitro</title>
+            <description>
+                Inicjalizacja projektu promującego invitro wśród młodzieży
+            </description>
+        </achievements>
+        <achievements>
+            <title>Repairman</title>
+            <description>
+                Udało się naprawić automat do kawy jednym uderzeniem pięścią
+            </description>
+        </achievements>
+        <achievements>
+            <title>Repairman Master</title>
+            <description>
+                Udało się naprawić automat do kawy jednym uderzeniem pięścią po raz drugi tego samego dnia
+            </description>
+        </achievements>
+    </employees>
+    <employees>
+        <id>2</id>
+        <img>stasiu.png</img>
+        <name>Stanisław</name>
+        <surname>Bobek</surname>
+        <profession>Programista Java</profession>
+        <achievements>
+            <title>Hero catcher</title>
+            <description>
+                Słynna opowieść o tym jajk widział jak ktoś komuś ratuje życie
+            </description>
+        </achievements>
+        <achievements>
+            <title>Lulu</title>
+            <description>
+                Pierwszy czlowiek potrafiący zasnąć w pozycji stojącej czekając na kawę
+            </description>
+        </achievements>
+    </employees>
+    <employees>
+        <id>3</id>
+        <img>zuza.png</img>
+        <name>Zuzanna</name>
+        <surname>Sanocka</surname>
+        <profession>Programista Python</profession>
+        <achievements>
+            <title>Just cute</title>
+            <description>
+                Zapomniała majtek i ogłosiła to na forum firmy
+            </description>
+        </achievements>
+        <achievements>
+            <title>Pet master</title>
+            <description>
+                Wygrała w konkursie rzudu petem do popielniczki
+            </description>
+        </achievements>
+    </employees>
+</employeesList>
