@@ -8,20 +8,20 @@ import java.net.URL;
 
 public class EmployeesXMLReader {
 
-    public static EmployeesList read(){
+    public static EmployeesList read() {
         URL resource = EmployeesList.class.getClassLoader().getResource("employeesList.xml");
         try {
             File xmlFile = new File(resource.toURI());
             JAXBContext jaxbContext = JAXBContext.newInstance(EmployeesList.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            return  (EmployeesList)jaxbUnmarshaller.unmarshal(xmlFile);
+            return (EmployeesList) jaxbUnmarshaller.unmarshal(xmlFile);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
     }
 
-    public static void save(EmployeesList employeesList){
+    public static void save(EmployeesList employeesList) {
         URL resource = EmployeesList.class.getClassLoader().getResource("employeesList.xml");
         try {
             File xmlFile = new File(resource.toURI());
